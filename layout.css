@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One:regular");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+
+body{
+    margin: 0;
+    font-family: "Nunito Sans", "Arial";
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;/*для того чтобы центровался посередине экрана*/
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0; /*свойство outline  задает до рамку вокруг элемента, за пределами его css-блока*/
+    border: 0; /*убрали бордер по умолчанию*/
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 10px;
+}
+
+.button-glass {
+    background-color: rgba(28,28,28,0);
+    border-color: white;
+    border: 1;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 11px 11px;
+    margin: 10px;
+}
+
+.logo {
+    color: #E3B873;
+    
+}
+
+.header {
+    background-color: black;
+}
+    
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;/*убрали точки списка*/
+    display: flex;
+
+}
+
+.header-navigation-item {
+    margin-right: 47px;
+}
+
+
+.header-navigation-item a {
+    text-decoration: none; /*убрали черточки внизу*/
+    color: white;
+}
+
+.header-navigation-item a:hover {
+    color:#E3B873;
+    
+}
+
+.link {
+    font-family: 'Nunito Sans' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.background {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.background-overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+.background-container {
+    position: relative;
+    z-index: 1;
+    max-width: 520px;
+    right: 134px;
+} /*сделали чтоб буквы title  были сверху затемнения(не затемнялись)*/
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'Nunito Sans' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.secondBackground {
+    background-color: black;
+    background-size: cover;
+    height: 1074px;
+    padding-top: 107px;
+    padding-left: 134px;
+    /*padding-right: 134px;*/
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.items {
+    
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 190.5px;
+    margin-top: 107px;
+    padding: 0;
+}
+
+.item {
+    margin-left: 60.5px;
+}
+
+.item:hover {
+    color: #E3B873; 
+    text-decoration-line: underline;
+}
+
+.parts {
+    display: flex;
+}
+
+.left-part {
+    max-width: 442px;
+}
+
+.title2 {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    width: 253px;
+    height: 66px;
+
+    color: #E3B873;
+
+}
+
+.about {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    
+    height: 86px;
+    
+    color: #FFFFFF; 
+}
+
+.small-parts {
+    display: flex;
+}
+
+.small-left-part {
+    max-width: 161px;
+    
+    
+
+}
+
+.small-h {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.small-text {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.arrow {
+    background-color: rgba(28,28,28,0);
+    border: 0;
+}
+
+
+.right-part {
+    width: 679px;
+}
+
+.third-section {
+    position: absolute;
+    margin-top: -298px;
+    width: 817px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 309px;
+
+}
+
+.online-control {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.video {
+    background-image: url(images/video.png);
+    width: 817px;
+    /*display: flex;
+    align-items: center;*/
+    height: 434px;
+}
+
+.play {
+    text-align: center;
+    right: 408.5px;
+    top: 174px;
+}
+
