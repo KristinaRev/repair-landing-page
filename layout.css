@@ -169,6 +169,7 @@ body * {
 .item:hover {
     color: #E3B873; 
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .parts {
@@ -272,14 +273,14 @@ body * {
 .video {
     background-image: url(images/video.png);
     width: 817px;
-    /*display: flex;
-    align-items: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 434px;
 }
 
-.play {
-    text-align: center;
-    right: 408.5px;
-    top: 174px;
+
+.play:hover {
+    cursor: pointer;
 }
 
