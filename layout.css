@@ -237,6 +237,10 @@ body * {
     color: #FFFFFF;
 }
 
+.slider {
+    display: flex;
+}
+
 .arrow {
     background-color: rgba(28,28,28,0);
     border: 0;
@@ -259,16 +263,7 @@ body * {
 
 }
 
-.online-control {
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
+
 
 .video {
     background-image: url(images/video.png);
