@@ -239,9 +239,22 @@ body * {
 
 .slider {
     display: flex;
+    margin-top: 79.64px;
+    cursor: default;
+    position: relative;
 }
 
-.arrow {
+.dot {
+  position: relative;
+  align-self: center;
+  cursor: pointer;
+  width: 9.57px;
+  height: 9.57px;
+  border-radius: 30px;
+  background:  rgba(255, 255, 255, 0.3);
+}
+
+.slider-item {
     background-color: rgba(28,28,28,0);
     border: 0;
 }
