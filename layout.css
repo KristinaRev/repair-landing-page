@@ -28,15 +28,20 @@ body * {
     margin: 10px;
 }
 
-.button-glass {
+.button:hover {
+    cursor: pointer;
+}
+
+.background-container .button:hover {
     background-color: rgba(28,28,28,0);
     border-color: white;
-    border: 1;
+    border: 2px;
     color: white;
     text-transform: uppercase;
     font-style: italic;
-    padding: 11px 11px;
+    padding: 13px 13px;
     margin: 10px;
+    
 }
 
 .logo {
@@ -46,6 +51,7 @@ body * {
 
 .header {
     background-color: black;
+    
 }
     
 
@@ -273,7 +279,7 @@ body * {
     flex-direction: column;
     align-items: center;
     right: 309px;
-
+    
 }
 
 
@@ -281,14 +287,50 @@ body * {
 .video {
     background-image: url(images/video.png);
     width: 817px;
+    position: relative ;
+    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 434px;
 }
 
+.play {
+    position: relative;
+    left: 20px;
+}
 
 .play:hover {
     cursor: pointer;
 }
 
+.bottom-line {
+    margin-top: 62.5px;
+    padding: 0;
+}
+
+
+.video-text {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 37px; 
+    text-align: center;
+    color: #363636;
+    width: 681px;
+    height: 131px;
+}
+
+.form {
+    margin-top: 93px;
+}
+
+.input-form {
+    display: flex;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+}
