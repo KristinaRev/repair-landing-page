@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
-    <title>Document</title>
+    <title>IC "Repair Design Project"</title>
 </head>
 <body>
     <header class="header">
@@ -70,9 +70,10 @@
             </div>
             </div>
             <div class="slider">
-                <botton class="slider-item">
+                <botton class="arrow slider-item">
                     <img src="images/arrow_left.svg" alt="left">
                 </botton>
+                <div class="dots">
                  <botton class="slider-item">
                     <div class="dot"></div>
                 </botton>
@@ -82,6 +83,7 @@
                 <button class="slider-item">
                     <div class="dot"></div>
                 </botton>
+                </div>
                 <button class="arrow slider-item">
                     <img src="images/arrow_right.svg" alt="right">
                 </botton> 
@@ -111,24 +113,125 @@
             <div class="input-form">
                 <div class="input-item">
                     <label class="label" for="name">Name</label>
-                    <input class="first-form input" type="text" name="user_name"  placeholder="What is your name:">
+                    <input class="input" type="text" name="user_name"  placeholder="What is your name:">
                     <hr class="hr-under-input">
                 </div>
                 <div class="input-item"> 
                     <label class="label" for="phone">Phone</label>
-                    <input class="first-form input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
+                    <input class="input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
                     <hr class="hr-under-input">
                 </div>
                 
                 <input class="button form-button" type="submit" value="SUBMIT">
             </div>
             <div class="first-checkbox">
+                <label for="#" class="checkbox-label">
                   <input type="checkbox" class="checkbox" >
-                  
+                  <span class="fake"></span>
                   <span class="text-checkbox">I agree to the processing of personal data</span>
+                  </label>
             </div>
         </form> 
         </section>
+    <section class="forth-section">
+        <div class="container">
+            <h3 class="white-h">TYPES OF REPAIR</h3>
+            <div class="tools"><p class="image-of-tools"><img src="images/tools.svg"></p></div>
+
+            <div class="rooms">
+            <div class="blue-room">
+                <div class="blue-room-picture room-picture"><img src="images/blue-room.png" alt="Photo of blue room"      ></div>
+                <div class="services">
+                    <h4>Redecorating</h4>
+                    <ul class="benefits-item">
+                        <li>Dismantling of old coatings</li>
+                        <li>Wallpapering</li>
+                        <li>Painting walls and ceilings</li>
+                        <li>Laying flooring</li>
+                        <li>Replacing plumbing</li>
+                        <li>Replacing sockets and switches</li>
+                        <li>Replacing doors</li>
+                    </ul>
+                    <div class="price-button"><button class="button">from 900 rub / m2</button></div>
+                </div>
+            </div>
+            <div class="orange-room">
+                <div class="orange-room-picture room-picture"><img src="images/orange-room.png" alt="Photo of orange room "></div>
+                <div class="services">
+                    <h4>Overhaul</h4>
+                    <ul class="benefits-item">
+                        <li>Dismantling of old coatings</li>
+                        <li>Wallpapering</li>
+                        <li>Painting walls and ceilings</li>
+                        <li>Laying flooring</li>
+                        <li>Replacing plumbing</li>
+                        <li>Replacing sockets and switches</li>
+                        <li>Replacing doors</li>
+                    </ul>
+                    <div class="price-button"><button class="button">from 1800 rub / m2</button></div>
+                </div>
+            </div>
+                <div class="black-room">
+                    <div class="black-room-picture room-picture"><img src="images/black-room.png" alt="Photo of black room "></div>
+                    <div class="services">
+                        <h4>Designer Repair</h4>
+                        <ul class="benefits-item">
+                            <li>Dismantling of old coatings</li>
+                            <li>Wallpapering</li>
+                            <li>Painting walls and ceilings</li>
+                            <li>Laying flooring</li>
+                            <li>Replacing plumbing</li>
+                            <li>Replacing sockets and switches</li>
+                            <li>Replacing doors</li>
+                        </ul>
+                        <div class="price-button"><button class="button">from 4000 rub / m2</button></div>
+                    </div>
+            </div>
+            </div>
+
+        <div class="second-part-of-forth-section">
+            <div class="benefits">
+                <div class="order-benefit"><div class="number">01</div><div class="benefit">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</div></div>
+                <div class="order-benefit"><div class="number">02</div><div class="benefit">Free metering</div></div>
+                <div class="order-benefit"><div class="number">03</div><div class="benefit">Free consultation</div></div>
+                <div class="order-benefit"><div class="number">04</div><div class="benefit">Get a cost estimate and the timing of your future repairs</div></div>
+            </div>
+            <form class="second-form" action="#">
+                <div class="second-input-form">
+                    <div class="input-item">
+                        <label class="label" for="name">Name</label>
+                        <input class="input" type="text" name="user_name"  placeholder="What is your name:">
+                        <hr class="hr-under-input">
+                    </div>
+                    <div class="input-item"> 
+                        <label class="label" for="phone">Phone</label>
+                        <input class="input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
+                        <hr class="hr-under-input">
+                    </div>
+                    <div class="input-item"> 
+                        <label class="label" for="Email">Email</label>
+                        <input class="input" type="tel" name="Email" id="Email" placeholder="Your email">
+                        <hr class="hr-under-input">
+                    </div>
+                    
+                    <input class="button form-button" type="submit" value="SUBMIT">
+                </div>
+                <div class="second-checkbox">
+                    <label for="#" class="checkbox-label">
+                      <input type="checkbox" class="checkbox" >
+                      <span class="fake"></span>
+                      <span class="text-checkbox">I agree to the processing of personal data</span>
+                      </label>
+                </div>
+            </form> 
+        </div>
+            <div class="saving">
+                <div class="piggy"><img src="images/piggy.png" alt="picture of piggy"></div>
+                <div class="saving-text">Help save 10 - 20% of the 
+                    cost of materials</div>
+            </div>
+        </div>
+    </section>
 </main>
     <footer>
     </footer>

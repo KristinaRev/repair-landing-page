@@ -146,7 +146,6 @@ body * {
     height: 1074px;
     padding-top: 107px;
     padding-left: 134px;
-    /*padding-right: 134px;*/
     padding-bottom: 90px;
     position: relative;
 }
@@ -166,6 +165,7 @@ body * {
     margin-right: 190.5px;
     margin-top: 107px;
     padding: 0;
+    position: relative;
 }
 
 .item {
@@ -250,6 +250,8 @@ body * {
     position: relative;
 }
 
+
+
 .dot {
   position: relative;
   align-self: center;
@@ -328,9 +330,155 @@ body * {
 
 .input-form {
     display: flex;
+    justify-content: space-between;
 }
 
 .input-item {
     display: flex;
     flex-direction: column;
 }
+
+.label {
+    font-family: Nunito Sans 
+    font-style: regular;
+    font-size: 13px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.form-button {
+    width: 200px;
+    height: 51px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    border-radius: 1px;
+  }
+  
+  .fake::before {
+    content:"\2714";
+    opacity: 1;
+    transition: .2s;
+  }
+  
+  .checkbox:checked + .fake::before{
+    opacity: 0;
+  }
+
+  .forth-section {
+    position: relative;
+    margin-top: 780px;
+    height: 1500px;
+    
+    
+    
+  }
+
+  .white-h {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .image-of-tools {
+    text-align: center;
+  }
+
+  .room-picture {
+    width: 392px;
+    position: relative;
+    
+  }
+
+  .rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  h4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+  }
+
+  .benefits-item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: -20px;
+
+    color: #959595;
+
+  }
+
+  .services {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    margin-top: -140px;
+    width: 330px;
+    height: 286px;
+    margin-left: 31px;
+    padding-left: 34px;
+    
+  }
+
+  .second-part-of-forth-section {
+    margin-top: 360px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .benefits {
+    
+    background-image: url(images/ligt-background.svg);
+    background-size: 100%;
+    width: 400px;
+    height: 509 px;
+    
+  }
+
+  .number {
+    background-color: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    width: 41.5px;
+    height: 41.5px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+
+ 
+  
+
