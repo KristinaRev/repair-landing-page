@@ -162,7 +162,7 @@ body * {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: 190.5px;
+    margin-right: 152.5px;
     margin-top: 107px;
     padding: 0;
     position: relative;
@@ -184,6 +184,9 @@ body * {
 
 .left-part {
     max-width: 442px;
+    margin-left: -30px;
+    
+    
 }
 
 .title2 {
@@ -234,6 +237,11 @@ body * {
     color: #E3B873;
 }
 
+.repair-cost {
+    margin-top: 36px;
+
+}
+
 .small-text {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -246,30 +254,29 @@ body * {
 .slider {
     display: flex;
     margin-top: 79.64px;
-    cursor: default;
-    position: relative;
+    cursor: pointer;
+    
 }
 
 
 
 .dot {
-  position: relative;
-  align-self: center;
-  cursor: pointer;
+  
   width: 9.57px;
   height: 9.57px;
   border-radius: 30px;
-  background:  rgba(255, 255, 255, 0.3);
+  background-color:  rgba(255, 255, 255, 0.3);
 }
 
 .slider-item {
     background-color: rgba(28,28,28,0);
-    border: 0;
+    border: none;
 }
 
 
 .right-part {
     width: 679px;
+    padding-left: 50px;
 }
 
 .third-section {
@@ -336,6 +343,8 @@ body * {
 .input-item {
     display: flex;
     flex-direction: column;
+    margin-left: 49px;
+    margin-right: 49px;
 }
 
 .label {
@@ -456,10 +465,12 @@ body * {
     
     background-image: url(images/ligt-background.svg);
     background-size: 100%;
-    width: 400px;
     height: 509 px;
+    padding: 0;
+    margin-top: -50px;
     
   }
+
 
   .number {
     background-color: #E3B873;
@@ -481,7 +492,115 @@ body * {
 
  .order-benefit {
     display: flex;
+    padding-top: 85px;
+    padding-left: 169px;
+    margin: 0;
+}
+
+ .second-form {
+    background-color: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 506px;
+    height: 509px;
+ }
+
+ .second-text-form {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+ }
+
+ .second-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+ .second-input-item {
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-top: 30px;
     
  }
+
+ .second-form-button {
+    margin-right: 49px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .second-input {
+    background: none;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    
+ }
+
+ .hr-under-input {
+    visibility: hidden;
+ }
+
+ .input {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    
+}
+
+.first-input {
+    width: 231px;
+}
+
+ .first-checkbox {
+    display: flex;
+    justify-content: center;
+ }
+
+ .saving {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+ }
+
+ .saving-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    width: 344px;
+    height: 47px;
+ }
+
+ .second-checkbox {
+    margin-left: 49px;
+ }
+
+ .second-text-checkbox {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+
   
 
