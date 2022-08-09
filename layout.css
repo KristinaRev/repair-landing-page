@@ -345,6 +345,11 @@ body * {
     flex-direction: column;
     margin-left: 49px;
     margin-right: 49px;
+
+}
+
+.first-input-item {
+    width: 231px;
 }
 
 .label {
@@ -600,6 +605,175 @@ body * {
     font-size: 14px;
     line-height: 163.68%;
     color: #FFFFFF;
+}
+
+.fifth-section {
+    background-image: url(images/backgroundRoom.png);
+    height: 864px;
+    margin-top: 250px;
+}
+
+.style-item {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+}
+
+.style-item:hover {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    border-bottom:1px solid #E3B873 ;
+
+    color: #E3B873;
+}
+
+.fifth-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.styles {
+    height: 516px;
+    width: 299px;
+    padding-top: 130px;
+    margin-left: 5px;
+}
+
+.styles-ul {
+    margin-left: -35px;
+    
+}
+
+.left-images {
+    margin: -40px 40px 40px 40px;
+}
+
+.roomTV {
+    padding-top: 30px;
+}
+
+.room4 {
+    padding-top: 30px;
+}
+
+.images {
+    display: flex;
+}
+
+.right-images {
+    margin: -101px 40px 40px 0px;
+}
+
+.clients-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    width: 400px;
+
+    color: #363636;
+}
+
+.customers {
+    display: flex;
+    justify-content: space-between;
+    width: 324px;
+}
+
+.custumer-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.sixth-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer {
+    margin: 50px;
+}
+
+.sixth-container {
+    padding-top: 90px;
+}
+
+.names {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 178px;
+    margin-left: 20px;
+
+    color: #363636;
+
+}
+
+.personphoto {
+    border-radius: 50%;
+}
+
+.workfor {
+    margin-top: 63px;
+    margin-left: -27px;
+}
+
+.sixth-section {
+    position: relative;
+}
+
+.seventh-section {
+    position: absolute;
+    z-index: 2;
+    background-color: #131313;
+    width: 883px;
+    height: 445px;
+    margin-left: 288.5px;
+    
+}
+
+.titlt-third-form {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seventh-container {
+    width: 516.5px;
+    margin-left: 21%;
+
 }
 
   
