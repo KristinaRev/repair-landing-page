@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="layout-mobile.css">
     <title>IC "Repair Design Project"</title>
 </head>
 <body>
@@ -316,38 +317,66 @@
         <div><h3 class="titlt-third-form">have any questions?</h3></div>
         <form class="third-form" action="#">
             <div class="third-input-form">
-                <div class="contacts">
-                    <div class="input-item third-input-item">
+                <div class="contacts pad">
+                    <div class=" third-input-item">
                     <label class="second-label" for="name">Name</label>
-                    <input class="input second-input" type="text" name="user_name"  placeholder="What is your name:">
+                    <input class="input second-input input-third" type="text" name="user_name"  placeholder="What is your name:">
                     <hr class="hr-under-input">
                     </div>
-                    <div class="input-item third-input-item"> 
+                    <div class=" third-input-item third-phone"> 
                     <label class="second-label" for="phone">Phone</label>
-                    <input class="input second-input " type="tel" name="tel" id="phone" placeholder="Your phone number:">
+                    <input class="input second-input input-third" type="tel" name="tel" id="phone" placeholder="Your phone number:">
                     <hr class="hr-under-input">
                     </div>
                 </div>
-                <div class="input-item third-input-item"> 
+                <div class="third-input-item pad"> 
                     <label class="second-label" for="phone">Question</label>
-                    <input class="input second-input" type="tel" name="tel" id="phone" placeholder="I want to know:">
+                    <input class="input second-input third-input" type="tel" name="tel" id="phone" placeholder="I want to know:">
                     <hr class="hr-under-input">
                 </div>
                 
-                <input class="button form-button" type="submit" value="SUBMIT">
+                <div class="first-checkbox pad">
+                    <label for="#" class="checkbox-label">
+                      <input type="checkbox" class="checkbox" >
+                      <span class="fake"></span>
+                      <span class="second-text-checkbox">I agree to the processing of personal data</span>
+                      </label>
+                </div>
+
+                <input class="button form-button third-button pad" type="submit" value="SUBMIT">
             </div>
-            <div class="first-checkbox">
-                <label for="#" class="checkbox-label">
-                  <input type="checkbox" class="checkbox" >
-                  <span class="fake"></span>
-                  <span class="text-checkbox">I agree to the processing of personal data</span>
-                  </label>
-            </div>
+            
         </form>
     </div>
 </section>
+<section class="last-section">
+    <div class="background-over"></div>
+    <div z><h3 class="last-title z">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
+        Decorum Tel +7 (928) 768 32 29</h3></div>
+    <div class="social z">
+        <a href="#"><img src="images/email.png"></a>
+        <a href="#" class="inst"><img src="images/insta.png"></a>
+    </div>
+    <div class="z map"><img src="images/map.png" alt="map"></div>
+
+</section>
 </main>
-    <footer>
+    <footer class="header">
+        <div class="container header-content">
+            <div class="logo">IC "Repair Design Project"</div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation-item"><a href="#">HOME</a></li>
+                    <li class="header-navigation-item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation-item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation-item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation-item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation-item"><a href="#">CONTACTS</a></li>
+                </ul>
+                </nav>
+                <a class="link" href="tel:+7(928)7683239">+7 (928) 768-32-39</a>
+                <button class="button">Request a call</button>
+                </div> 
     </footer>
 </body>
 </html>

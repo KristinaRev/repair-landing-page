@@ -776,5 +776,75 @@ body * {
 
 }
 
-  
+.third-input {
+ width: 516px;
+}
+
+.third-input-form {
+    width: 516px;
+    
+}
+
+.input-third { width: 231px;}
+
+.pad { margin-top: 40px;}
+
+
+.third-button { margin-left: 146px;}
+
+.third-phone {
+ margin-left: 48px;
+}
+
+.last-section {
+    background-image: url(images/last-background.png);
+    background-size: cover;
+    width: 1440px;
+    height: 954px;
+    margin-top: 244px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.z {z-index: 1;}
+
+.last-title {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    position: relative;
+    margin-top: 120px;
+
+    color: #E3B873;
+
+}
+
+.background-over{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+.map {
+    margin-top: 30px;
+}
+
+.inst { margin-left: 10px;}
+
+
+
+
 
