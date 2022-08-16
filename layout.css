@@ -21,11 +21,12 @@ body * {
     border-radius: 2px;
     outline: 0; /*свойство outline  задает до рамку вокруг элемента, за пределами его css-блока*/
     border: 0; /*убрали бордер по умолчанию*/
-    padding: 13px 33px;
     color: white;
     text-transform: uppercase;
     font-style: italic;
     margin: 10px;
+    width: 207px;
+    height: 51px;
 }
 
 .button:hover {
@@ -35,7 +36,8 @@ body * {
 .background-container .button:hover {
     background-color: rgba(28,28,28,0);
     border-color: white;
-    border: 2px;
+    border: 1px solid white;
+    border-radius: 2px;
     color: white;
     text-transform: uppercase;
     font-style: italic;
@@ -46,6 +48,12 @@ body * {
 
 .logo {
     color: #E3B873;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
     
 }
 
@@ -116,9 +124,8 @@ body * {
     position: relative;
     z-index: 1;
     max-width: 520px;
-    right: 134px;
-} /*сделали чтоб буквы title  были сверху затемнения(не затемнялись)*/
-
+    right: 300px;
+} 
 .title {
     margin: 0;
     font-family: 'Yeseva One','Times New Roman', Times, serif;
@@ -166,6 +173,8 @@ body * {
     margin-top: 107px;
     padding: 0;
     position: relative;
+    left: 20px;
+    bottom: 30px;
 }
 
 .item {
@@ -238,7 +247,7 @@ body * {
 }
 
 .repair-cost {
-    margin-top: 36px;
+    margin-top: 38px;
 
 }
 
@@ -251,11 +260,19 @@ body * {
     color: #FFFFFF;
 }
 
-.slider {
-    display: flex;
-    margin-top: 79.64px;
+
+
+button:hover {
     cursor: pointer;
-    
+}
+
+.slider1 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.rigt {
+    margin-left: 15px;
 }
 
 
@@ -266,6 +283,11 @@ body * {
   height: 9.57px;
   border-radius: 30px;
   background-color:  rgba(255, 255, 255, 0.3);
+  margin-left: 15px;
+}
+
+.dot:hover {
+    background-color: white;
 }
 
 .slider-item {
