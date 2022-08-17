@@ -64,6 +64,7 @@
         font-size: 11px;
         line-height: 158.48%;
         width: 100%;
+        min-width: 311px;
     }
 
     .right-part {
@@ -75,11 +76,74 @@
     }
 
     .left-part {
-        margin-left: -100px;
-        margin-right: ;
+        margin-left: -70px;
         text-align: center;
+        display: flex;
+        align-items: center;
         max-width: 100%;
+        flex-direction: column;
     }
+
+    .image {
+        display: block;
+        display: flex;
+        background-image: url(images/mobileimage.png);
+        min-width: 340px;
+        min-height: 241px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px;
+
+    }
+
+    .small-text {
+        text-align: left;
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+
+    .small-h {
+        text-align: left;
+        font-size: 14px;
+        line-height: 138.6%;
+        min-width: 150px;
+    }
+
+    .repair-cost {
+        margin-top: 11px;
+    }
+
+    .small-parts {
+        margin-top: 30px;
+
+    }
+
+    .secondBackground {
+        height: 1500px;
+    }
+
+    .small-right-part {
+        margin-left: 40px;
+    }
+
+    .third-section {
+        width: 340px;
+        right: 0px;
+        margin-top: -830px;
+    } 
+
+    .video {
+        width: 340px;
+        height: 207px;
+        background-size: cover;
+    }
+
+    .clickplay {
+        width: 50px;
+    }
+
+
 
     
 }

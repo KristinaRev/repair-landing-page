@@ -191,6 +191,10 @@ body * {
     display: flex;
 }
 
+.image {
+    display: none;
+}
+
 .left-part {
     max-width: 442px;
     margin-left: -30px;
