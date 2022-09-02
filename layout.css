@@ -15,6 +15,8 @@ body * {
     margin: 0 auto;/*для того чтобы центровался посередине экрана*/
 }
 
+
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -379,7 +381,7 @@ button:hover {
 }
 
 .label {
-    font-family: Nunito Sans 
+    font-family: Nunito Sans;
     font-style: regular;
     font-size: 13px;
     color: rgba(54, 54, 54, 0.5);
@@ -600,6 +602,10 @@ button:hover {
  .first-checkbox {
     display: flex;
     justify-content: center;
+ }
+
+ .fake1 {
+    display: none;
  }
 
  .saving {
@@ -835,6 +841,10 @@ button:hover {
     align-items: center;
 }
 
+.minimap {
+    display: none;
+}
+
 .z {z-index: 1;}
 
 .last-title {
@@ -869,6 +879,7 @@ button:hover {
 }
 
 .inst { margin-left: 10px;}
+
 
 
 

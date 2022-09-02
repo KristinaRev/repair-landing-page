@@ -1,8 +1,12 @@
-@media (max-width: 1150px) {
+@media (max-width: 900px) {
 
     .container {
      padding-left: 18px;
      padding-right: 18px;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+     min-width: 135px;
     }
 
     .header-content {
@@ -58,6 +62,7 @@
         width: 200px;
         text-align: center;
         margin-top: -85px;
+        margin-left: 60px;
     }
 
     .about {
@@ -120,7 +125,7 @@
     }
 
     .secondBackground {
-        height: 1500px;
+        height: 1400px;
     }
 
     .small-right-part {
@@ -129,9 +134,22 @@
 
     .third-section {
         width: 340px;
-        right: 0px;
-        margin-top: -830px;
-    } 
+        margin-top: -745px;
+        right: 5%;
+        left: 5%;
+        height: 850px;
+    }
+
+    .first-checkbox {
+        display: none;
+    }
+
+    .fake1 {
+        display: block;
+        margin-top: 5px;
+
+    }
+
 
     .video {
         width: 340px;
@@ -142,6 +160,209 @@
     .clickplay {
         width: 50px;
     }
+
+    .video-text {
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+        width: 340px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+        width: 100%;
+    }
+    
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .first-input {
+        background: none;
+        border: none;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.72%;
+        color: #FFFFFF;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        width: 100%;
+    }
+
+    .input-item {
+        width:  100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .rooms {
+        flex-direction: column;
+    }
+
+    .forth-section {
+        margin-top: 50px;
+    }
+
+    .services {
+        margin-left: auto;
+        width: 241px;
+        height: 270px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .price-button {
+        width: 190px;
+        height: 40px;
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+
+    .title-room {
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .benefits-item {
+        line-height: 169.8%;
+    }
+
+    .margin-picture {
+        margin-top: 200px;
+    }
+
+    .benefits {
+        display: none;
+    }
+
+    .saving {
+        display: none;
+    }
+
+    .fifth-section {
+        background-image: none;
+        height: auto;
+        margin-top: 500px;
+    }
+
+    .styles-ul {
+        display: none;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .second-part-of-forth-section {
+        display: none;
+    }
+
+    .sixth-section {
+        display: none;
+    }
+
+    .seventh-section {
+        position: relative;
+        z-index: -1;
+        background-color: #131313;
+        width: 100%;
+        height: 710px;
+        margin-left: 0;
+        margin-top: -284px;
+        
+    }
+
+    .seventh-container {
+        width: 100%;
+        margin-left: auto;
+        padding-top: 155px;
+        padding-left: 18px;
+        padding-right: 18px;
+    
+    }
+
+    .third-button { 
+        margin-left: auto;
+    }
+
+    .form-button {
+        width: 340px;
+        height: 51px;
+        margin-top: 60px;
+    }
+
+    .image2 {
+        background-image: url(images/roomclock.png);
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-phone {
+        margin-left: 0;
+       }
+
+    .input-third { width: 339px;}
+
+    .third-input-fl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pad { margin-top: 0px;}
+
+    .third-input-item {
+        margin-top: 50px;
+    }
+
+    .block-checkbox {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .last-section {
+        background-image: none;
+        background-size: cover;
+        width: 100%;
+        height: 540px;
+        margin-top: 0px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .minimap {
+        display: block;
+        display: flex;
+        z-index: 2;
+        margin-top: 30px;
+    }
+
+    .last-title {
+        font-size: 18px;
+        line-height: 138.6%;
+        margin-top: 40px;
+    }
+
+    footer {
+        display: none;
+    }
+    
+
+
 
 
 

@@ -95,7 +95,6 @@
         </section>
 
         <section class="third-section">
-           
         <div class="camera">
             <img src="images/camera.png" alt="camera">
         </div>
@@ -110,7 +109,7 @@
             <div class="input-form">
                 <div class="input-item first-input-item">
                     <label class="label" for="name">Name</label>
-                    <input class="input" type="text" name="user_name"  placeholder="What is your name:">
+                    <input class="input first-input" type="text" name="user_name"  placeholder="What is your name:">
                     <hr class="hr-under-input">
                 </div>
                 <div class="input-item first-input-item"> 
@@ -118,6 +117,8 @@
                     <input class="input first-input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
                     <hr class="hr-under-input">
                 </div>
+
+                <div class="fake1"> <img src="images/agree.png" alt="I agree to the processing of personal data" loading="lazy"></div>
                 
                 <input class="button form-button" type="submit" value="SUBMIT">
             </div>
@@ -129,6 +130,7 @@
                   </label>
             </div>
         </form> 
+        
         </section>
     <section class="forth-section">
         <div class="container">
@@ -139,7 +141,7 @@
             <div class="blue-room">
                 <div class="blue-room-picture room-picture"><img src="images/blue-room.png" alt="Photo of blue room"      ></div>
                 <div class="services">
-                    <h4>Redecorating</h4>
+                    <h4 class="title-room">Redecorating</h4>
                     <ul class="benefits-item">
                         <li>Dismantling of old coatings</li>
                         <li>Wallpapering</li>
@@ -153,9 +155,9 @@
                 </div>
             </div>
             <div class="orange-room">
-                <div class="orange-room-picture room-picture"><img src="images/orange-room.png" alt="Photo of orange room "></div>
+                <div class="orange-room-picture room-picture margin-picture"><img src="images/orange-room.png" alt="Photo of orange room "></div>
                 <div class="services">
-                    <h4>Overhaul</h4>
+                    <h4 class="title-room">Overhaul</h4>
                     <ul class="benefits-item">
                         <li>Dismantling of old coatings</li>
                         <li>Wallpapering</li>
@@ -169,9 +171,9 @@
                 </div>
             </div>
                 <div class="black-room">
-                    <div class="black-room-picture room-picture"><img src="images/black-room.png" alt="Photo of black room "></div>
+                    <div class="black-room-picture room-picture margin-picture"><img src="images/black-room.png" alt="Photo of black room "></div>
                     <div class="services">
-                        <h4>Designer Repair</h4>
+                        <h4 class="title-room">Designer Repair</h4>
                         <ul class="benefits-item">
                             <li>Dismantling of old coatings</li>
                             <li>Wallpapering</li>
@@ -236,6 +238,10 @@
         <div class="container fifth-container">
             <div class="styles">
                 <h2 class="title2">We realize your wildest fantasies</h2>
+                <div class="image image2">
+                    <div class="buttonleft round"><img src="images/buttonleft.png"></div>
+                    <div class="buttonright round"><img src="images/buttonright.png"></div>
+                </div>
                 <ul class="styles-ul">
                     <li><a href="#" class="style-item">American classic</a></li>
                     <li><a href="#" class="style-item">Empire</a></li>
@@ -314,12 +320,12 @@
         <form class="third-form" action="#">
             <div class="third-input-form">
                 <div class="contacts pad">
-                    <div class=" third-input-item">
+                    <div class=" third-input-item third-input-fl">
                     <label class="second-label" for="name">Name</label>
                     <input class="input second-input input-third" type="text" name="user_name"  placeholder="What is your name:">
                     <hr class="hr-under-input">
                     </div>
-                    <div class=" third-input-item third-phone"> 
+                    <div class=" third-input-item third-phone third-input-fl"> 
                     <label class="second-label" for="phone">Phone</label>
                     <input class="input second-input input-third" type="tel" name="tel" id="phone" placeholder="Your phone number:">
                     <hr class="hr-under-input">
@@ -331,7 +337,7 @@
                     <hr class="hr-under-input">
                 </div>
                 
-                <div class="first-checkbox pad">
+                <div class="first-checkbox block-checkbox pad">
                     <label for="#" class="checkbox-label">
                       <input type="checkbox" class="checkbox" >
                       <span class="fake"></span>
@@ -339,7 +345,7 @@
                       </label>
                 </div>
 
-                <input class="button form-button third-button pad" type="submit" value="SUBMIT">
+                <input class="button form-button third-button pad third-input-item" type="submit" value="SUBMIT">
             </div>
             
         </form>
@@ -347,6 +353,7 @@
 </section>
 <section class="last-section">
     <div class="background-over"></div>
+    <div class="minimap"><img src="images/mapmini.png" alt="map" loading="lazy"></div>
     <div z><h3 class="last-title z">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
         Decorum Tel +7 (928) 768 32 29</h3></div>
     <div class="social z">
