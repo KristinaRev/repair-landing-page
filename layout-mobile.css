@@ -11,6 +11,9 @@
 
     .header-content {
         height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .header-navigation {
@@ -360,6 +363,10 @@
     footer {
         display: none;
     }
+
+    .third-input {
+        width: 339px;
+       }
     
 
 
