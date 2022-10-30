@@ -17,6 +17,7 @@ body * {
 
 
 
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -153,10 +154,9 @@ body * {
     background-color: black;
     background-size: cover;
     height: 1074px;
-    padding-top: 107px;
-    padding-left: 134px;
     padding-bottom: 90px;
     position: relative;
+    display: flex;
 }
 
 .items {
@@ -305,6 +305,7 @@ button:hover {
 .right-part {
     width: 679px;
     padding-left: 50px;
+    
 }
 
 .third-section {
