@@ -881,7 +881,80 @@ button:hover {
 
 .inst { margin-left: 10px;}
 
-
+.modal {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    top: -1000px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    padding: 60px 15px;
+  }
+   
+  .modal_active {
+    position: fixed;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+  }
+  
+  .modal__content {
+    width: 25%;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 5px 15px black;
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .modal__close-button {
+    background: #ff0000;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+  }
+  
+  .modal__close-button:hover {
+    transition: .3s;
+    transform: rotate(180deg);
+  }
+  
+  .hidden {
+    overflow: hidden;
+  }
+  
+  .photo {
+      padding-left: 10%;
+      border-radius: 5%;
+      overflow: hidden;
+  }
+  
+  .greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 
