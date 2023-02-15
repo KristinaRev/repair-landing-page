@@ -12,7 +12,7 @@ body * {
 
 .container {
     max-width: 1250px;
-    margin: 0 auto;/*для того чтобы центровался посередине экрана*/
+    margin: 0 auto;
 }
 
 
@@ -23,7 +23,7 @@ body * {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     outline: 0; /*свойство outline  задает до рамку вокруг элемента, за пределами его css-блока*/
-    border: 0; /*убрали бордер по умолчанию*/
+    border: 0; 
     color: white;
     text-transform: uppercase;
     font-style: italic;
@@ -74,7 +74,7 @@ body * {
 }
 
 .header-navigation {
-    list-style: none;/*убрали точки списка*/
+    list-style: none;
     display: flex;
 
 }
@@ -85,7 +85,7 @@ body * {
 
 
 .header-navigation-item a {
-    text-decoration: none; /*убрали черточки внизу*/
+    text-decoration: none;
     color: white;
 }
 
