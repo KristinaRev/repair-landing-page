@@ -1,17 +1,82 @@
 
 
 
+@media (max-width: 937px) {
+    .slider-descrip {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -225px;
+    }
+
+     .progects {
+        width: 100%;
+     }
+
+     .projects__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20px 73px;
+        gap: 2%;
+    }
+
+    .slider_container {
+        width: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .slider__navig {
+        width: 100%;
+        height: 13.28px;
+    }
+
+    h1 {
+        margin-top: -150px;
+    }
+
+
+    .title-slider .progects, .title__info {
+        display: none;
+    }
+
+    .slider__titles {
+        left: -15vh;
+        position: relative;
+       
+    }
+
+}
+
+@media (max-width: 629px) {
+    .slider-descrip {
+        flex-direction: column;
+    }
+
+   
+
+    .slider__images {
+        width: 900;
+    }
+
+}
+
+
+
 .title-slider {
     display: flex;
     align-items: center;
 }
 
 .slider-descrip {
-    width: 442px;
+   width: 35.3%;
    height: 552px;
    position: relative;
    margin-top: 176px;
-   margin-left: 134px;
 }
 
 
@@ -47,11 +112,6 @@ h1, h2 {
     line-height: 37.42px;
     margin-top: 176.36px;
     margin-bottom: 34px;
-}
-.title__line {
-    position: absolute;
-    left: 161px;
-    top: 228px;
 }
 
 .title__info{
@@ -144,8 +204,7 @@ h1, h2 {
 }
 
 .slider {
-    width: 679px;
-    margin: 0 0 0 50px;
+    width: 54%;
 }
 
 .slider__titles {
@@ -162,7 +221,7 @@ h1, h2 {
     font-size: 14px;
     line-height: 19.4px;
     color: rgba(255, 255, 255, 0.3);
-    margin-right: 60.5px;
+    margin-right: 5%;
     white-space: nowrap;
     text-transform: uppercase;
     font-family: 'Yeseva One';
@@ -184,7 +243,7 @@ h1, h2 {
 }
 
 .slider__images {
-    width: 679px;
+    width: 100%;
     height: 482.38px;
     position: relative;
 }
@@ -196,7 +255,7 @@ h1, h2 {
     height: 100%;
     position: absolute;
     left: 0;
-     top: 0;
+    top: 0;
     opacity: 0;
     transition: opacity 800ms ease;
 }

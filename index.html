@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header-content">
+        <div class=" header-content">
         <div class="logo">IC "Repair Design Project"</div>
         <nav>
             <ul class="header-navigation">
@@ -25,9 +25,9 @@
             </ul>
             </nav>
             <a class="link" href="tel:+7(928)7683239">+7 (928) 768-32-39</a>
-            <button class="button button-header" id="callback-button">Request a call</button>
+            <button class="button-header" id="callback-button">Request a call</button>
             <!-- Модальное окно -->
-            <div class="modal">
+            <div class="modal" >
                 <div class="modal__content">
                 <button class="modal__close-button"><img src="images/icons/cross.svg" alt="close"></button>
                    <!-- Контент модального окна -->
@@ -58,17 +58,15 @@
                         with work time saving up to 45 days and 20% from
                         cost of materials due to the organization of work</p>
                         <button class="button">CALCULATE THE COST</button>
-                        <button class="button">SUBMIT YOUR APPLICATION</button>
+                        <button class="button button_sub">SUBMIT YOUR APPLICATION</button>
             </div>
         </section>
 
         <section class="secondBackground">
+        <div class="container slider_container">
             <div class="slider-descrip">
                 <div class="title-slider">
-                    <div class="progects">Completed projects
-                        <img src="images\line-title.svg" style="color: #E3B873;margin-left: 20px;width: 92px;"
-                            alt="line" loading="lazy">
-                    </div>
+                    <div class="progects">Completed projects </div>
                 </div>
                 <p class="p1 title__info">
                     Only a small part of the work performed by our company is presented<br>
@@ -114,45 +112,47 @@
                 <div class="slider__titles"></div>
                 <div class="slider__images"></div>
             </div>
+        </div>
         </section>
 
         <section class="third-section">
-        <div class="camera">
-            <img src="images/camera.png" alt="camera">
-        </div>
-        <div class="video">
-                <div class="play"><img src="images/play.png" alt="click to play" class="clickplay"></div>
+        <div class="third-section-container">
+            <div class="camera">
+                <img src="images/camera.png" alt="camera">
             </div>
-        <div class="bottom-line"><img src="images/line-bottom.png" alt="line"></div>
-        <div class="video-text-block"><p class="video-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br>
-            Leave a request below and you will receive a link to the broadcast.</p></div>
-        
-        <form class="form" action="#">
-            <div class="input-form">
-                <div class="input-item first-input-item">
-                    <label class="label" for="name">Name</label>
-                    <input class="input first-input" type="text" name="user_name"  placeholder="What is your name:">
-                    <hr class="hr-under-input">
+            <div class="video">
+                    <div class="play"><img src="images/play.png" alt="click to play" class="clickplay"></div>
                 </div>
-                <div class="input-item first-input-item"> 
-                    <label class="label" for="phone">Phone</label>
-                    <input class="input first-input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
-                    <hr class="hr-under-input">
-                </div>
+            <div class="bottom-line"><img src="images/line-bottom.png" alt="line"></div>
+            <div class="video-text-block"><p class="video-text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!<br>
+                Leave a request below and you will receive a link to the broadcast.</p></div>
+            
+            <form class="form" action="#">
+                <div class="input-form">
+                    <div class="input-item first-input-item">
+                        <label class="label" for="name">Name</label>
+                        <input class="input first-input" type="text" name="user_name"  placeholder="What is your name:">
+                        <hr class="hr-under-input">
+                    </div>
+                    <div class="input-item first-input-item"> 
+                        <label class="label" for="phone">Phone</label>
+                        <input class="input first-input" type="tel" name="tel" id="phone" placeholder="Your phone number:">
+                        <hr class="hr-under-input">
+                    </div>
 
-                <div class="fake1"> <img src="images/agree.png" alt="I agree to the processing of personal data" loading="lazy"></div>
-                
-                <input class="button form-button" type="submit" value="SUBMIT">
-            </div>
-            <div class="first-checkbox">
-                <label for="#" class="checkbox-label">
-                  <input type="checkbox" class="checkbox" >
-                  <span class="fake"></span>
-                  <span class="text-checkbox">I agree to the processing of personal data</span>
-                  </label>
-            </div>
-        </form> 
-        
+                    <div class="fake1"> <img src="images/agree.png" alt="I agree to the processing of personal data" loading="lazy"></div>
+                    
+                    <input class="button form-button" type="submit" value="SUBMIT">
+                </div>
+                <div class="first-checkbox">
+                    <label for="#" class="checkbox-label">
+                    <input type="checkbox" class="checkbox" >
+                    <span class="fake"></span>
+                    <span class="text-checkbox">I agree to the processing of personal data</span>
+                    </label>
+                </div>
+            </form> 
+        </div>
         </section>
     <section class="forth-section">
         <div class="container">
@@ -160,10 +160,9 @@
             <div class="tools"><p class="image-of-tools"><img src="images/tools.svg"></p></div>
 
             <div class="rooms">
-            <div class="blue-room">
-                <div class="blue-room-picture room-picture"><img src="images/blue-room.png" alt="Photo of blue room"      ></div>
+            <div class="room">
+                <div class=" room-picture"><img src="images/blue-room.png" alt="Photo of blue room" ></div>
                 <div class="services">
-                    <h4 class="title-room">Redecorating</h4>
                     <ul class="benefits-item">
                         <li>Dismantling of old coatings</li>
                         <li>Wallpapering</li>
@@ -176,10 +175,9 @@
                     <div class="price-button"><button class="button">from 900 rub / m2</button></div>
                 </div>
             </div>
-            <div class="orange-room">
-                <div class="orange-room-picture room-picture margin-picture"><img src="images/orange-room.png" alt="Photo of orange room "></div>
+            <div class="room">
+                <div class="room-picture margin-picture"><img src="images/orange-room.png" alt="Photo of orange room "></div>
                 <div class="services">
-                    <h4 class="title-room">Overhaul</h4>
                     <ul class="benefits-item">
                         <li>Dismantling of old coatings</li>
                         <li>Wallpapering</li>
@@ -192,10 +190,9 @@
                     <div class="price-button"><button class="button">from 1800 rub / m2</button></div>
                 </div>
             </div>
-                <div class="black-room">
-                    <div class="black-room-picture room-picture margin-picture"><img src="images/black-room.png" alt="Photo of black room "></div>
+                <div class="room">
+                    <div class="room-picture margin-picture"><img src="images/black-room.png" alt="Photo of black room "></div>
                     <div class="services">
-                        <h4 class="title-room">Designer Repair</h4>
                         <ul class="benefits-item">
                             <li>Dismantling of old coatings</li>
                             <li>Wallpapering</li>
@@ -209,7 +206,9 @@
                     </div>
             </div>
             </div>
+        </div>
 
+        <div class="container">
         <div class="second-part-of-forth-section">
             <div class="benefits">
                 <div class="order-benefit"><div class="number">01</div><div class="benefit">Our specialist will arrive for measurements per day <br> or appoint a date convenient for you</div></div>
@@ -255,6 +254,7 @@
                     cost of materials</div>
             </div>
         </div>
+    </div>
     </section>
     <section class="fifth-section">
         <div class="container fifth-container">
@@ -291,8 +291,8 @@
 
         </div>
     </section>
-    <section class="sixth-section">
-        <div class="container sixth-container">
+    <section class="sixth-section container ">
+        <div class="sixth-container">
             <div class="sixth-cont">
                 <h3 class="white-h">our clients</h3>
             <div class="hands"><img src="images/hand.svg" alt="hand"></div>
@@ -353,9 +353,9 @@
                     <hr class="hr-under-input">
                     </div>
                 </div>
-                <div class="third-input-item pad third-input-fl"> 
-                    <label class="second-label" for="phone">Question</label>
-                    <input class="input second-input third-input" type="tel" name="tel" id="phone" placeholder="I want to know:">
+                <div class="third-input-item pad third-input-fl wantknow"> 
+                    <label class="second-label" for="phone" id="wantknow">Question</label>
+                    <input class="input second-input third-input" type="tel" name="tel" id="wantknow" placeholder="I want to know:">
                     <hr class="hr-under-input">
                 </div>
                 
@@ -367,7 +367,7 @@
                       </label>
                 </div>
 
-                <input class="button form-button third-button pad third-input-item" type="submit" value="SUBMIT">
+                <div><input class="button form__button" type="submit" value="SUBMIT"></div>
             </div>
             
         </form>

@@ -2,38 +2,44 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
 
 body{
-    margin: 0;
     font-family: "Nunito Sans", "Arial";
 }
 
-body * {
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    max-width: 1250px;
+    width: 85.8%;
     margin: 0 auto;
 }
-
-
-
 
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
-    outline: 0; /*свойство outline  задает до рамку вокруг элемента, за пределами его css-блока*/
-    border: 0; 
+    outline: 0; 
+    border: none; 
     color: white;
     text-transform: uppercase;
     font-style: italic;
-    margin: 10px;
-    width: 207px;
+    width: 209px;
     height: 51px;
+}
+
+
+.button:last-child {
+    margin-left: 20px;
 }
 
 .button:hover {
     cursor: pointer;
+}
+
+.background-container .button {
+    margin-top: 40px;
 }
 
 .background-container .button:hover {
@@ -42,11 +48,8 @@ body * {
     border: 1px solid white;
     border-radius: 2px;
     color: white;
-    text-transform: uppercase;
     font-style: italic;
     padding: 13px 13px;
-    margin: 10px;
-    
 }
 
 .logo {
@@ -64,6 +67,14 @@ body * {
     background-color: black;
     
 }
+
+.button-header {
+    background-color: rgba(185, 138, 35, 0);
+    color: #E3B873;
+    border: 1px solid #E3B873;
+    border-radius: 2px;
+    padding: 10px 5px;
+}
     
 
 .header-content{
@@ -71,6 +82,8 @@ body * {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    width: 87.2%;
+    margin: 0 auto;
 }
 
 .header-navigation {
@@ -104,6 +117,10 @@ body * {
     color: #E3B873;
 }
 
+.button_sub {
+    display: none;
+}
+
 .background {
     background-image: url("images/background.jpg");
     background-size: cover;
@@ -127,7 +144,6 @@ body * {
     position: relative;
     z-index: 1;
     max-width: 520px;
-    right: 300px;
 } 
 .title {
     margin: 0;
@@ -156,7 +172,11 @@ body * {
     height: 1074px;
     padding-bottom: 90px;
     position: relative;
+}
+
+.secondBackground .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .items {
@@ -282,7 +302,6 @@ button:hover {
 }
 
 
-
 .dot {
   
   width: 9.57px;
@@ -311,31 +330,32 @@ button:hover {
 .third-section {
     position: absolute;
     margin-top: -298px;
-    width: 817px;
+    width: 56.7%;
     height: 950px;
+    width: 100% ;
+}
+
+.third-section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    right: 309px;
-    
 }
 
 
 
 .video {
     background-image: url(images/video.png);
-    width: 817px;
+    background-size: cover;
+    width: 56.7%;
     position: relative ;
-    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 434px;
+    height: 500px;
 }
 
 .play {
     position: relative;
-    left: 20px;
 }
 
 .play:hover {
@@ -388,9 +408,11 @@ button:hover {
     color: rgba(54, 54, 54, 0.5);
 }
 
-.form-button {
+.form__button {
     width: 200px;
     height: 51px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .checkbox {
@@ -489,10 +511,9 @@ button:hover {
   }
 
   .second-part-of-forth-section {
-    margin-top: 360px;
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 200px;
   }
   
   .benefits {
@@ -582,9 +603,14 @@ button:hover {
     font-size: 14px;
     line-height: 23px;
     color: #FFFFFF;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgb(255, 255, 255);
     
  }
+
+ .forth-section, .secondBackground {
+    overflow-x: hidden;
+}
+
 
  .hr-under-input {
     visibility: hidden;
@@ -723,7 +749,7 @@ button:hover {
 .customers {
     display: flex;
     justify-content: space-between;
-    width: 324px;
+    width: 100%;
 }
 
 .custumer-text {
@@ -732,17 +758,18 @@ button:hover {
     font-weight: 400;
     font-size: 13px;
     line-height: 180%;
-    color: #959595;
+    color: #959595;text-align: center;
 }
 
 .sixth-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 .customer {
-    margin: 50px;
+    margin: 4%;
 }
 
 .sixth-container {
@@ -768,7 +795,6 @@ button:hover {
 
 .workfor {
     margin-top: 63px;
-    margin-left: -27px;
 }
 
 .sixth-section {
@@ -776,12 +802,13 @@ button:hover {
 }
 
 .seventh-section {
-    position: absolute;
     z-index: 2;
     background-color: #131313;
-    width: 883px;
+    width: 61.3%;
     height: 445px;
-    margin-left: 288.5px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 30px;
     
 }
 
@@ -804,26 +831,34 @@ button:hover {
 }
 
 .seventh-container {
-    width: 516.5px;
-    margin-left: 21%;
+    width: 55%;
+    margin: 0 auto;
 
+}
+
+.third-form {
+    width: 100%;
 }
 
 .third-input {
- width: 516px;
+ width: 100%;
 }
 
 .third-input-form {
-    width: 516px;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.input-third { width: 231px;}
+.input-third { 
+    width: 231px;
+}
+
 
 .pad { margin-top: 40px;}
 
-
-.third-button { margin-left: 146px;}
 
 .third-phone {
  margin-left: 48px;
