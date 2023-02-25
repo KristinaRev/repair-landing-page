@@ -252,6 +252,7 @@
         
     }
 
+
     .first-input {
         background: none;
         border: none;
@@ -274,7 +275,7 @@
 
 
     .forth-section {
-        margin-top: 50px;
+        display: none;
     }
 
     .services {
@@ -310,7 +311,7 @@
     }
 
     .fifth-section {
-        visibility: hidden;
+        display: none;
     }
 
     .styles-ul {

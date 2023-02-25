@@ -991,6 +991,16 @@ button:hover {
     align-items: center;
   }
 
+  .input-modal {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 10%;
+    color: #fff;
+  }
+
+  .button-modal:hover {
+    background-color: rgba(0, 0, 0, 0);;
+  }
+
 
 
 
